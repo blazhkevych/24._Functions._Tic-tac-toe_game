@@ -140,6 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="resources\library\games.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources\library\games.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\24. Функции. Игра Крестики-нолики.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Tic-tac-toe_game.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
